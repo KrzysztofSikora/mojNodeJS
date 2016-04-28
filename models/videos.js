@@ -12,6 +12,8 @@ var db = require('/home/krzysztof/IdeaProjects/mojNodeJS/db.js');
 // });
 
 var Videos = db.model('Videos', {
+    title: { type: String, required: true},
+    description: { type: String, required: true}
 
 });
 
